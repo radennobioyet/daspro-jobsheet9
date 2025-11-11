@@ -11,6 +11,7 @@ for (int i = 0; i < nilaiAkhir.length; i++) {
 }
 ``` 
 Jalankan program. Apakah terjadi perubahan? Mengapa demikian? 
+
 2. Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length ?  
 3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70): 
 ```
@@ -21,6 +22,7 @@ for (int i = 0; i < nilaiAkhir.length; i++) {
 }
 ```
 Jalankan program dan jelaskan alur program! 
+
 4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output berikut: 
 
 
