@@ -12,6 +12,7 @@ Pertanyaan
  }
 ```
 Apa keluaran dari program? Jelaskan maksud dari statement tersebut.
+4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian? 
 
 
 Jawaban
@@ -28,4 +29,5 @@ Jawaban
        }
    }
    ```
-   3. Program akan tetap menampilkan output yang sama dengan program sebelumnya Karena for hanya menggantikan penulisan manual dengan pengulangan otomatis. Nilai array tidak berubah, hanya cara mencetaknya yang lebih efisien. 
+3. Program akan tetap menampilkan output yang sama dengan program sebelumnya Karena for hanya menggantikan penulisan manual dengan pengulangan otomatis. Nilai array tidak berubah, hanya cara mencetaknya yang lebih efisien. 
+4. Jika kondisi i <= 4, maka program akan mencoba mengakses bil[4], padahal array bil hanya memiliki indeks 0 sampai 3. Program akan mencetak elemen bil[0] hingga bil[3] dengan benar. Saat i = 4, terjadi ArrayIndexOutOfBoundsException karena bil[4] tidak ada.
