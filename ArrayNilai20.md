@@ -21,6 +21,7 @@ for (int i = 0; i < nilaiAkhir.length; i++) {
 }
 ```
 Jalankan program dan jelaskan alur program! 
+4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output berikut: 
 
 
 jawaban
@@ -32,3 +33,27 @@ c. Melalui perulangan for, program meminta pengguna memasukkan nilai akhir setia
 d. Setelah semua nilai dimasukkan, program memeriksa setiap nilai dengan perulangan kedua.
 e. Jika nilai mahasiswa lebih dari 70, program menampilkan pesan "Mahasiswa ke-i lulus!".
 f. Program hanya menampilkan mahasiswa yang lulus saja, lalu selesai.
+4. ```
+import java.util.Scanner;
+
+public class ArrayNilai20 {
+    public static void main(String[] args) {
+        Scanner rdn = new Scanner(System.in);
+
+        int[]nilaiAkhir = new int[10];
+
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Masukkan nilai akhir ke-" + i + " : ");
+            nilaiAkhir[i] = rdn.nextInt();
+        }
+
+        for (int i = 0; i < 10; i++) {
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("Mahasiswa ke-" + i + " lulus!");
+            } else {
+                System.out.println("Mahasiswa ke-" + i + " tidak lulus!");
+            }
+        }
+    }
+}
+```
