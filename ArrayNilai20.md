@@ -35,11 +35,13 @@ c. Melalui perulangan for, program meminta pengguna memasukkan nilai akhir setia
 d. Setelah semua nilai dimasukkan, program memeriksa setiap nilai dengan perulangan kedua.
 e. Jika nilai mahasiswa lebih dari 70, program menampilkan pesan "Mahasiswa ke-i lulus!".
 f. Program hanya menampilkan mahasiswa yang lulus saja, lalu selesai.
-4. ```
+4. 
+```
 import java.util.Scanner;
 
 public class ArrayNilai20 {
     public static void main(String[] args) {
+        
         Scanner rdn = new Scanner(System.in);
 
         int[]nilaiAkhir = new int[10];
